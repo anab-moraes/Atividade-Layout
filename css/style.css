@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* ---------- MENU ---------- */
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 30px 100px;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    height: 32px;
+}
+
+
+.cabec-topi {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    text-decoration: none;
+    align-items: center;
+
+    & ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 80px;
+    }
+
+    & li {
+        list-style: none;
+    }
+
+    & a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+
+    }
+
+    & a:hover {
+        color: #729a40;
+    }
+
+    & button {
+        display: flex;
+        all: unset;
+        font-size: 15px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        border: 1px solid black;
+        align-items: center;
+        transition: background 0.5s, transform 0.4s;
+    }
+
+    & button:hover {
+        background-color: #729a40;
+        color: white;
+        transform: translateY(-2px);
+    }
+}
+
+
+
+/* Primeira parte do main */
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 50px 115px;
+
+    & img {
+        width: 600px;
+        height: 515px;
+    }
+}
+
+.txt {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+
+    & h1 {
+        font-size: 50px;
+    }
+
+    & p {
+        font-size: 20px;
+    }
+
+    & button {
+        display: flex;
+        all: unset;
+        font-size: 20px;
+        width: 200px;
+        
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 35px;
+        transition: background 0.5s, transform 0.4s;
+    }
+
+    & button:hover{
+        background-color: #729a40;
+        transform: translateY(-2px);
+    }
+
+}
+
+
+/* textinho */
+
+
+.textinho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
+
+    & h1{
+        background-color: #B9FF66;
+        padding: 5px 5px;
+        font-size: 40px;
+        border-radius: 10px;
+    }
+
+    & p{
+        font-size: 18px;
+    }
+    
+}
+
+
+
+/* Cards */
+
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+
+}
