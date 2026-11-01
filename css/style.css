@@ -134,12 +134,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 110px;
     gap: 50px;
 
     & h1 {
         background-color: #B9FF66;
-        padding: 5px 5px;
+        padding: 5px 10px;
         font-size: 40px;
         border-radius: 10px;
     }
